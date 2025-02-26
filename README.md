@@ -1,5 +1,4 @@
-# Image Steganography Tool
-
+# Secure Data Hiding in Image Using Steganography
 This project provides a simple tool for encrypting and decrypting text messages within images using steganography.
 
 ## Overview
