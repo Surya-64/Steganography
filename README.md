@@ -27,8 +27,8 @@ This tool allows you to hide secret messages inside image files. It uses a basic
 1.  **Clone the repository:**
 
     ```bash
-    git clone [your-repository-url]
-    cd [your-repository-name]
+    git clone [[(https://github.com/Surya-64/Steganography.git)]
+    cd [Steganography]
     ```
 
 2.  **Encryption:**
