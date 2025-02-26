@@ -12,6 +12,17 @@ This tool allows you to hide secret messages inside image files. It uses a basic
 * **Passcode Protection:** Adds a basic passcode to prevent unauthorized decryption.
 * **Clear Error Handling:** Provides informative error messages.
 * **Cross-Platform Compatibility:** Uses OpenCV, which is compatible with Windows, macOS, and Linux.
+  
+## LSB Steganography Technique
+
+This project utilizes the Least Significant Bit (LSB) steganography technique. Here's a brief explanation:
+
+* **How it Works:**
+    * Digital images are composed of pixels, and each pixel has color values (typically Red, Green, and Blue - RGB).
+    * These color values are represented in binary form.
+    * The LSB technique modifies the rightmost bit(s) of these binary values.
+    * Since the rightmost bits have the least impact on the overall color, the changes are very subtle and often undetectable by the human eye.
+    * In this implementation, each character of the secret message is converted to it's ASCII integer value. That value is then stored in the least significant portion of the image pixel's color values.
 
 ## Getting Started
 
